@@ -349,9 +349,9 @@ export class News extends Component {
     return (
       <div className="container my-3">
         <h1 className="text-center text-3xl font-bold">TOP HEADLINE</h1>
-        <div class="text-gray-600 body-font">
-          <div class="container px-5 py-24 mx-auto">
-            <div class="flex flex-wrap mx-auto grid lg:grid-cols-4 md:grid-cols-3 gap-1">
+        <div className="text-gray-600 body-font">
+          <div className="container px-5 py-24 mx-auto">
+            <div className="flex flex-wrap mx-auto grid lg:grid-cols-4 md:grid-cols-3 gap-1">
               {this.state.articles.map((element) => {
                 return (
                   <div className="col-md-3" key={element.url}>
